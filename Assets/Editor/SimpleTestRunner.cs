@@ -1,7 +1,8 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class TestRunner : MonoBehaviour {
+
+public class SimpleTestRunner : MonoBehaviour {
 
 	// Use this for initialization
 	public static void Execute () {
