@@ -7,7 +7,7 @@ public class SimpleTestRunner : MonoBehaviour {
 	// Use this for initialization
 	public static void Execute () {
 
-		var testRunner = new GameObject().AddComponent<TestRunner>();
+		var testRunner = new GameObject().AddComponent<SimpleTestRunner>();
 
 		testRunner.UpdatePlayerSettings();
 		testRunner.ThrownAnException();
